@@ -33,7 +33,7 @@ namespace DosBox.Command.Library
             FileSystemItem tempo = this.Drive.GetItemFromPath(this.Drive.CurrentDirectory.Path + "\\" + fileName);
             if (tempo != null)
                 this.Drive.CurrentDirectory.Remove(tempo);
-
+            
 
             this.Drive.CurrentDirectory.Add(newFile);
         }
