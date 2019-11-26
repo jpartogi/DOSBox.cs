@@ -27,7 +27,8 @@ namespace DosBox.Command.Library
                                new CmdMkDir("mkdir", drive),
                                new CmdMkDir("md", drive),
                                new CmdMkFile("mf", drive),
-                               new CmdMkFile("mkfile", drive)
+                               new CmdMkFile("mkfile", drive),
+                               new CmdHelp("help", drive)
 
                                // Add your commands here
 
